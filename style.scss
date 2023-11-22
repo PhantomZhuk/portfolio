@@ -176,9 +176,9 @@
                                 color: #fff;
                                 text-align: center;
                                 font-family: Outfit;
-                                font-size: calc(6px + 0.65vw);
+                                font-size: calc(8px + 0.7vw);
                                 font-style: normal;
-                                font-weight: 700;
+                                font-weight: 400;
                                 line-height: 15px;
                                 /* 93.75% */
                                 text-transform: capitalize;
@@ -230,12 +230,12 @@
 
         .about-me-block {
             width: 60%;
-            height: 100vh;
+            min-height: 100vh;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             align-items: flex-start;
-            padding: 150px 0;
+            padding: 100px 0;
             color: #fff;
 
             .aboutbox {
@@ -273,6 +273,8 @@
                 font-weight: 300;
                 line-height: 24px;
                 padding-right: 60px;
+                margin: 10px 0;
+                line-height: 1.7;
             }
 
             .about-me-short-info {
@@ -314,9 +316,9 @@
                         color: #fff;
                         text-align: center;
                         font-family: Outfit;
-                        font-size: calc(7px + 0.7vw);
+                        font-size: calc(8px + 0.7vw);
                         font-style: normal;
-                        font-weight: 700;
+                        font-weight: 400;
                         line-height: 15px;
                         /* 93.75% */
                         text-transform: capitalize;
@@ -733,6 +735,14 @@
                         height: 30vh;
                         padding: 0;
                         order: 2;
+
+                        .btn-box {
+                            .btn-block {
+                                p {
+                                    font-size: calc(8px + 0.7vw);
+                                }
+                            }
+                        }
                     }
 
                     .myphoto {
@@ -772,11 +782,20 @@
 
             .about-me-block {
                 width: 70%;
-                height: 60vh;
+                min-height: 30vh;
+                max-height: 80vh;
                 padding: 0;
 
                 .about-me-info {
                     padding-right: 10px;
+                }
+
+                .btn-block {
+                    .btn-resume {
+                        p {
+                            font-size: calc(10px + 0.8vw);
+                        }
+                    }
                 }
             }
         }

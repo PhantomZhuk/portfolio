@@ -158,9 +158,9 @@
   color: #fff;
   text-align: center;
   font-family: Outfit;
-  font-size: calc(6px + 0.65vw);
+  font-size: calc(8px + 0.7vw);
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 15px;
   /* 93.75% */
   text-transform: capitalize;
@@ -201,12 +201,12 @@
 }
 .wrap .aboutPage .about-me-block {
   width: 60%;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 150px 0;
+  padding: 100px 0;
   color: #fff;
 }
 .wrap .aboutPage .about-me-block .aboutbox {
@@ -240,6 +240,8 @@
   font-weight: 300;
   line-height: 24px;
   padding-right: 60px;
+  margin: 10px 0;
+  line-height: 1.7;
 }
 .wrap .aboutPage .about-me-block .about-me-short-info ul {
   list-style: none;
@@ -273,9 +275,9 @@
   color: #fff;
   text-align: center;
   font-family: Outfit;
-  font-size: calc(7px + 0.7vw);
+  font-size: calc(8px + 0.7vw);
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 15px;
   /* 93.75% */
   text-transform: capitalize;
@@ -627,6 +629,9 @@
     padding: 0;
     order: 2;
   }
+  .wrap .homePage .container .rightblock .hometext .btn-box .btn-block p {
+    font-size: calc(8px + 0.7vw);
+  }
   .wrap .homePage .container .rightblock .myphoto {
     height: 70vh;
     width: 100%;
@@ -653,11 +658,15 @@
   }
   .wrap .aboutPage .about-me-block {
     width: 70%;
-    height: 60vh;
+    min-height: 30vh;
+    max-height: 80vh;
     padding: 0;
   }
   .wrap .aboutPage .about-me-block .about-me-info {
     padding-right: 10px;
+  }
+  .wrap .aboutPage .about-me-block .btn-block .btn-resume p {
+    font-size: calc(10px + 0.8vw);
   }
 }
 @media screen and (max-width: 700px) {
