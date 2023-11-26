@@ -175,7 +175,9 @@
 .wrap .homePage .container .rightblock .myphoto .photo {
   width: 400px;
   height: 400px;
-  background-color: #31572C;
+  background-image: url(./img/photo_2023-11-26_15-12-00.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 50%;
   box-shadow: 0px 0px 24px 0px rgba(15, 16, 24, 0.42);
 }
@@ -197,7 +199,9 @@
   width: 300px;
   height: 400px;
   border-radius: 25px;
-  background-color: #31572C;
+  background-image: url(./img/myphoto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .wrap .aboutPage .about-me-block {
   width: 60%;
